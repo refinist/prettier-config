@@ -1,6 +1,6 @@
 {
   "name": "@refinist/prettier-config",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Prettier config for refinist",
   "homepage": "https://github.com/refinist/prettier-config#readme",
   "bugs": {
