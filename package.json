@@ -2,6 +2,10 @@
   "name": "@refinist/prettier-config",
   "version": "0.0.1",
   "description": "Prettier config for refinist",
+  "keywords": [
+    "prettier",
+    "prettier-config"
+  ],
   "homepage": "https://github.com/refinist/prettier-config#readme",
   "bugs": {
     "url": "https://github.com/refinist/prettier-config/issues"
