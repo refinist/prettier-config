@@ -1,0 +1,40 @@
+{
+  "name": "@refinist/prettier-config",
+  "version": "0.0.0",
+  "description": "Prettier config for refinist",
+  "homepage": "https://github.com/refinist/prettier-config#readme",
+  "bugs": {
+    "url": "https://github.com/refinist/prettier-config/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/refinist/prettier-config.git"
+  },
+  "license": "MIT",
+  "author": "Jeff Wang",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json"
+  },
+  "types": "index.d.ts",
+  "files": [
+    "index.d.ts",
+    "index.js"
+  ],
+  "scripts": {
+    "release": "bumpp && pnpm publish"
+  },
+  "prettier": "./index.js",
+  "devDependencies": {
+    "bumpp": "^10.1.1",
+    "prettier": "^3.5.3"
+  },
+  "packageManager": "pnpm@10.11.0",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
