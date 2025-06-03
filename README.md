@@ -4,16 +4,17 @@ Prettier config
 
 ## Install
 
+Using pnpm, yarn, or npm
+
 ```bash
+# with pnpm
 pnpm add -D @refinist/prettier-config
-```
 
-```bash
-npm i -D @refinist/prettier-config
-```
-
-```bash
+# with yarn
 yarn add -D @refinist/prettier-config
+
+# with npm
+npm i -D @refinist/prettier-config
 ```
 
 ## Features
