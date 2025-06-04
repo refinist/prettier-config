@@ -27,6 +27,8 @@ npm i -D @refinist/prettier-config
 - 🌐 Ignore HTML whitespace sensitivity
 - 🚫 Ignore common files (`node_modules`, `dist`, `pnpm-lock.yaml`...)，refer to [#4708](https://github.com/prettier/prettier/issues/4708#issuecomment-1448705672)
 
+Inspired by [@sxzz](https://github.com/sxzz)
+
 ## License
 
 [MIT](./LICENSE)
