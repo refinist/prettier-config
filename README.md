@@ -17,6 +17,17 @@ yarn add -D @refinist/prettier-config
 npm i -D @refinist/prettier-config
 ```
 
+## Usage
+
+```json
+// package.json
+{
+  "prettier": "@refinist/prettier-config"
+}
+```
+
+Generally, prettier works together with eslint. Check out [@refinist/eslint-config](https://github.com/refinist/eslint-config?tab=readme-ov-file#-prettier-config) for more configuration details.
+
 ## Features
 
 - 📏 2 spaces (default)

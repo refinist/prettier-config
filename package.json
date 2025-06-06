@@ -27,12 +27,17 @@
     "index.js"
   ],
   "scripts": {
+    "lint": "eslint",
+    "lint:fix": "pnpm run lint --fix",
     "release": "bumpp && pnpm publish"
   },
   "prettier": "./index.js",
   "devDependencies": {
     "@refinist/eslint-config": "^0.0.1",
     "bumpp": "^10.1.1",
+    "prettier": "^3.5.3"
+  },
+  "peerDependencies": {
     "prettier": "^3.5.3"
   },
   "packageManager": "pnpm@10.11.0",
