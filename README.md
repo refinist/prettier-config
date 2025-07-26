@@ -1,4 +1,4 @@
-# @refinist/prettier-config [![npm](https://img.shields.io/npm/v/@refinist/prettier-config.svg)](https://npmjs.com/package/@refinist/prettier-config)
+# @refinist/prettier-config [![npm](https://img.shields.io/npm/v/@refinist/prettier-config.svg?colorA=56b3b4&colorB=f7ba3e)](https://npmjs.com/package/@refinist/prettier-config)
 
 Prettier config
 
