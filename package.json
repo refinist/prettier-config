@@ -29,7 +29,7 @@
   "scripts": {
     "lint": "eslint",
     "lint:fix": "pnpm run lint --fix",
-    "release": "bumpp && pnpm publish"
+    "release": "bumpp"
   },
   "prettier": "./index.js",
   "devDependencies": {
