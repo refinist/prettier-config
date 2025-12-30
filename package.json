@@ -34,13 +34,13 @@
   "prettier": "./index.js",
   "devDependencies": {
     "@refinist/eslint-config": "^1.0.7",
-    "bumpp": "^10.1.1",
-    "prettier": "^3.5.3"
+    "bumpp": "^10.3.2",
+    "prettier": "^3.7.4"
   },
   "peerDependencies": {
     "prettier": "^3.5.3"
   },
-  "packageManager": "pnpm@10.11.0",
+  "packageManager": "pnpm@10.26.2",
   "engines": {
     "node": ">=22.16.0"
   },
