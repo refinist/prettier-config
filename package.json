@@ -1,7 +1,7 @@
 {
   "name": "@refinist/prettier-config",
   "version": "1.0.1",
-  "description": "Prettier config for refinist",
+  "description": "Out-of-the-box ESLint configuration",
   "keywords": [
     "prettier",
     "prettier-config"
