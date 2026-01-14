@@ -18,13 +18,22 @@
   "author": "Jeff Wang",
   "type": "module",
   "exports": {
-    ".": "./index.js",
+    ".": {
+      "import": "./index.js",
+      "types": "./index.d.ts"
+    },
+    "./with-tailwindcss": {
+      "import": "./with-tailwindcss.js",
+      "types": "./with-tailwindcss.d.ts"
+    },
     "./package.json": "./package.json"
   },
   "types": "index.d.ts",
   "files": [
+    "index.js",
     "index.d.ts",
-    "index.js"
+    "with-tailwindcss.js",
+    "with-tailwindcss.d.ts"
   ],
   "scripts": {
     "lint": "eslint",
@@ -46,5 +55,8 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "prettier-plugin-tailwindcss": "^0.7.2"
   }
 }

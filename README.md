@@ -21,12 +21,53 @@ npm i -D @refinist/prettier-config
 
 ## Usage
 
+### Basic
+
 ```json
 // package.json
 {
   "prettier": "@refinist/prettier-config"
 }
 ```
+
+Or in `prettier.config.js`:
+
+```js
+// prettier.config.js
+import config from '@refinist/prettier-config';
+/** @type {import('prettier').Config} */
+export default {
+  ...config
+
+  /* your custom config */
+};
+```
+
+### With Tailwind CSS
+
+If you're using Tailwind CSS, use the variant with the plugin:
+
+```json
+// package.json
+{
+  "prettier": "@refinist/prettier-config/with-tailwindcss"
+}
+```
+
+Or in `prettier.config.js`:
+
+```js
+// prettier.config.js
+import config from '@refinist/prettier-config/with-tailwindcss';
+/** @type {import('prettier').Config & import('@refinist/prettier-config/plugin-tailwindcss').PluginOptions} */
+export default {
+  ...config
+
+  /* your custom config */
+};
+```
+
+For more details about the Tailwind CSS plugin options, see the [prettier-plugin-tailwindcss documentation](https://github.com/tailwindlabs/prettier-plugin-tailwindcss).
 
 Generally, prettier works together with eslint. Check out [@refinist/eslint-config](https://github.com/refinist/eslint-config?tab=readme-ov-file#-prettier-config) for more configuration details.
 
@@ -39,6 +80,7 @@ Generally, prettier works together with eslint. Check out [@refinist/eslint-conf
 - 🏹 Avoid arrow parentheses
 - 🌐 Ignore HTML whitespace sensitivity
 - 🚫 Ignore common files (`node_modules`, `dist`, `pnpm-lock.yaml`...)，refer to [#4708](https://github.com/prettier/prettier/issues/4708#issuecomment-1448705672)
+- 🎨 With Tailwind CSS plugin (optional)
 
 Inspired by [@sxzz](https://github.com/sxzz)
 
