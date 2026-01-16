@@ -1,7 +1,8 @@
 // @ts-check
 
 // @ts-ignore
-import { fileURLToPath } from 'node:url';
+import { createRequire } from 'node:module';
+const require = createRequire(import.meta.url);
 
 /** @type {import('prettier').Config} */
 export default {
@@ -42,5 +43,5 @@ export default {
       }
     }
   ],
-  plugins: [fileURLToPath(import.meta.resolve('prettier-plugin-tailwindcss'))]
+  plugins: [require.resolve('prettier-plugin-tailwindcss')]
 };
