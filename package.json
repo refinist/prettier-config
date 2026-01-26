@@ -42,14 +42,14 @@
   },
   "prettier": "./index.js",
   "devDependencies": {
-    "@refinist/eslint-config": "^1.0.7",
-    "bumpp": "^10.3.2",
-    "prettier": "^3.7.4"
+    "@refinist/eslint-config": "^1.2.0",
+    "bumpp": "^10.4.0",
+    "prettier": "^3.8.1"
   },
   "peerDependencies": {
     "prettier": "^3.5.3"
   },
-  "packageManager": "pnpm@10.26.2",
+  "packageManager": "pnpm@10.28.2",
   "engines": {
     "node": ">=22.16.0"
   },
