@@ -1,5 +1,8 @@
 // @ts-check
 
+import { fileURLToPath } from 'node:url';
+const plugins = [fileURLToPath(import.meta.resolve('@prettier/plugin-oxc'))];
+
 /** @type {import('prettier').Config} */
 export default {
   semi: true,
@@ -38,5 +41,6 @@ export default {
         requirePragma: true
       }
     }
-  ]
+  ],
+  plugins
 };

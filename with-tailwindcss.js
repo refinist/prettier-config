@@ -4,6 +4,11 @@
 import { createRequire } from 'node:module';
 const require = createRequire(import.meta.url);
 
+const plugins = [
+  require.resolve('@prettier/plugin-oxc'),
+  require.resolve('prettier-plugin-tailwindcss'),
+]
+
 /** @type {import('prettier').Config} */
 export default {
   semi: true,
@@ -43,5 +48,5 @@ export default {
       }
     }
   ],
-  plugins: [require.resolve('prettier-plugin-tailwindcss')]
+  plugins,
 };

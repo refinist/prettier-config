@@ -4,6 +4,18 @@
 
 Prettier config
 
+## Features
+
+- 📏 2 spaces (default)
+- 🔚 Semicolons
+- 🔤 Single quotes
+- ❌ No trailing commas
+- 🏹 Avoid arrow parentheses
+- 🌐 Ignore HTML whitespace sensitivity
+- 🚫 Ignore common files (`node_modules`, `dist`, `pnpm-lock.yaml`...)，refer to [#4708](https://github.com/prettier/prettier/issues/4708#issuecomment-1448705672)
+- ⚡ Faster JS/TS parsing with [Oxc](https://github.com/nicolo-ribaudo/prettier/tree/nicolo/plugin-oxc/packages/plugin-oxc)
+- 🎨 With Tailwind CSS plugin (optional)
+
 ## Install
 
 Using pnpm, yarn, or npm
@@ -70,17 +82,6 @@ export default {
 For more details about the Tailwind CSS plugin options, see the [prettier-plugin-tailwindcss documentation](https://github.com/tailwindlabs/prettier-plugin-tailwindcss).
 
 Generally, prettier works together with eslint. Check out [@refinist/eslint-config](https://github.com/refinist/eslint-config?tab=readme-ov-file#-prettier-config) for more configuration details.
-
-## Features
-
-- 📏 2 spaces (default)
-- 🔚 Semicolons
-- 🔤 Single quotes
-- ❌ No trailing commas
-- 🏹 Avoid arrow parentheses
-- 🌐 Ignore HTML whitespace sensitivity
-- 🚫 Ignore common files (`node_modules`, `dist`, `pnpm-lock.yaml`...)，refer to [#4708](https://github.com/prettier/prettier/issues/4708#issuecomment-1448705672)
-- 🎨 With Tailwind CSS plugin (optional)
 
 Inspired by [@sxzz](https://github.com/sxzz)
 
