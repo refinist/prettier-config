@@ -43,7 +43,7 @@
   "prettier": "./index.js",
   "devDependencies": {
     "@refinist/eslint-config": "^1.3.0",
-    "bumpp": "^10.3.2",
+    "bumpp": "^11.0.1",
     "prettier": "^3.8.1"
   },
   "peerDependencies": {
